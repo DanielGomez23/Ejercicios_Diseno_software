@@ -1,10 +1,11 @@
 <?php
-#Ciclos
-
-#Ciclo for
+#Ciclo While
 
 $tabla = readline("Digite la tabla de multiplicar que desea usar: ");
-
-for( $i= 0; $i <=10; $i++){
+$i =0;
+while ($i <= 10) {
     echo    $tabla ." X ". $i ." = ". ($i * $tabla). "\n";
+    
+    #siempre debe llevar un contador
+    $i++;
 }
